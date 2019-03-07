@@ -6,7 +6,6 @@ console.log(PATH)
 const STATIC_CACHE_KEY = 'static-' + VERSION
 const STATIC_FILES = [
   ORIGIN + '/',
-  ORIGIN + '/report',
   ORIGIN + '/css/style.css',
   ORIGIN + '/js/index.js',
   'https://cdn.rawgit.com/kimeiga/bahunya/css/bahunya-0.1.3.css',
