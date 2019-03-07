@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server --cors -a localhost -p 8888"
+    "start": "http-server --cors -a localhost -p 8888 -d"
   },
   "keywords": [],
   "author": "",

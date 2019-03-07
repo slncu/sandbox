@@ -1,4 +1,4 @@
-const VERSION = new Date().getDate()
+const VERSION = '2'
 const PATH = location.hostname === 'localhost' ? ':8888' : '/sandbox/sw'
 const ORIGIN = location.protocol + '//' + location.hostname + PATH
 console.log(VERSION)
@@ -6,6 +6,7 @@ console.log(VERSION)
 const STATIC_CACHE_KEY = 'static-' + VERSION
 const STATIC_FILES = [
   ORIGIN + '/',
+  ORIGIN + '/report',
   ORIGIN + '/css/style.css',
   ORIGIN + '/js/index.js',
   'https://cdn.rawgit.com/kimeiga/bahunya/css/bahunya-0.1.3.css',
