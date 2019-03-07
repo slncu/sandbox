@@ -1,4 +1,4 @@
-const VERSION = '2'
+const VERSION = '5'
 const PATH = location.hostname === 'localhost' ? ':8888' : '/sandbox/sw'
 const ORIGIN = location.protocol + '//' + location.hostname + PATH
 console.log(VERSION)

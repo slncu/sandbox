@@ -1,0 +1,15 @@
+.offline {
+  padding-top: 40px;
+}
+
+.offline::after {
+  content: '現在オフラインです。保存処理を実行したい場合はオンラインにしてください。';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background: red;
+  color: white;
+}
