@@ -1,15 +1,15 @@
-const VERSION = '6'
-const PATH = location.hostname === 'localhost' ? ':8888' : '/sandbox/sw'
-const ORIGIN = location.protocol + '//' + location.hostname + PATH
-console.log(PATH)
+const VERSION = '9'
+const ORIGIN = location.protocol + '//' + location.hostname + ':8888'
 
 const STATIC_CACHE_KEY = 'static-' + VERSION
 const STATIC_FILES = [
   ORIGIN + '/',
-  ORIGIN + '/css/style.css',
-  ORIGIN + '/js/index.js',
+  ORIGIN + '/public/css/style.css',
+  ORIGIN + '/public/js/index.js',
   'https://cdn.rawgit.com/kimeiga/bahunya/css/bahunya-0.1.3.css',
 ]
+
+console.log(ORIGIN)
 
 const CACHE_KEYS = [STATIC_CACHE_KEY]
 

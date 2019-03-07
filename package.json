@@ -1,0 +1,26 @@
+{
+  "name": "sandbox",
+  "version": "1.0.0",
+  "description": "sandbox",
+  "main": "sw.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "http-server ./ --cors -a localhost -p 8888 -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slncu/sandbox.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slncu/sandbox/issues"
+  },
+  "homepage": "https://github.com/slncu/sandbox#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
