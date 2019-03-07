@@ -1,5 +1,7 @@
 const VERSION = '<%= hash %>'
-const ORIGIN = location.protocol + '//' + location.hostname + '/sandbox/sw'
+const PATH = location.hostname === 'localhost' ? ':8888' : '/sandbox/sw'
+const ORIGIN = location.protocol + '//' + location.hostname + PATH
+console.log(VERSION)
 
 const STATIC_CACHE_KEY = 'static-' + VERSION
 const STATIC_FILES = [
