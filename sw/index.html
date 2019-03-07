@@ -37,8 +37,9 @@
   <script src="./js/index.js"></script>
   <script>
     if (navigator.serviceWorker) {
-      navigator.serviceWorker.register('/sw.js', { scope: '.' })
+      navigator.serviceWorker.register('./sw.js', { scope: '.' })
         .then(function(registraion) {
+          console.log('SW registerd!', registraion)
           registraion.update();
         });
     }
