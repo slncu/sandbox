@@ -1,5 +1,5 @@
 const VERSION = '<%= hash %>'
-const ORIGIN = location.protocol + '//' + location.hostname
+const ORIGIN = location.protocol + '//' + location.hostname + '/sandbox'
 
 const STATIC_CACHE_KEY = 'static-' + VERSION
 const STATIC_FILES = [
