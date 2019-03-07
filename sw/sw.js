@@ -6,6 +6,7 @@ const STATIC_FILES = [
   ORIGIN + '/',
   ORIGIN + '/css/style.css',
   ORIGIN + '/js/index.js',
+  'https://cdn.rawgit.com/kimeiga/bahunya/css/bahunya-0.1.3.css',
 ]
 
 const CACHE_KEYS = [STATIC_CACHE_KEY]
