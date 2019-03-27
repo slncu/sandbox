@@ -8,10 +8,10 @@ const int = str => parseInt(str, 10)
 
 class App extends Component {
   state = {
-    cost: 0,
-    year: 0,
-    month: 0,
-    day: 0,
+    cost: 30000,
+    year: 10,
+    month: 1,
+    day: 15,
     result: '',
     height: '',
     width: '',
