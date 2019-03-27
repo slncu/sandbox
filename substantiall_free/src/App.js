@@ -33,7 +33,7 @@ class App extends Component {
   }
 
   render() {
-    const { result, width, height } = this.state
+    const { cost, year, month, day, result, width, height } = this.state
 
     return (
       <div className='App'>
@@ -43,7 +43,7 @@ class App extends Component {
               あなたの買いたいものは、￥
               <input
                 type='text'
-                defaultValue={0}
+                defaultValue={cost}
                 onChange={e => this.setState({ cost: e.target.value })}
               />
               なので、
@@ -51,19 +51,19 @@ class App extends Component {
             <div className='content-body'>
               <input
                 type='text'
-                defaultValue={0}
+                defaultValue={year}
                 onChange={e => this.setState({ year: e.target.value })}
               />
               年
               <input
                 type='text'
-                defaultValue={0}
+                defaultValue={month}
                 onChange={e => this.setState({ month: e.target.value })}
               />
               ヶ月
               <input
                 type='text'
-                defaultValue={0}
+                defaultValue={day}
                 onChange={e => this.setState({ day: e.target.value })}
               />
               日使ったら、
