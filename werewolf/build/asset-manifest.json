@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.91b3bd44.chunk.css",
-    "main.js": "/static/js/main.0b97f17d.chunk.js",
-    "main.js.map": "/static/js/main.0b97f17d.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/js/2.3310f33a.chunk.js": "/static/js/2.3310f33a.chunk.js",
-    "static/js/2.3310f33a.chunk.js.map": "/static/js/2.3310f33a.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.3eecd3468299eb6735a359270f400626.js": "/precache-manifest.3eecd3468299eb6735a359270f400626.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.91b3bd44.chunk.css.map": "/static/css/main.91b3bd44.chunk.css.map"
+    "main.css": "/sandbox/werewolf/build/static/css/main.91b3bd44.chunk.css",
+    "main.js": "/sandbox/werewolf/build/static/js/main.d1d589b5.chunk.js",
+    "main.js.map": "/sandbox/werewolf/build/static/js/main.d1d589b5.chunk.js.map",
+    "runtime~main.js": "/sandbox/werewolf/build/static/js/runtime~main.3e22b11e.js",
+    "runtime~main.js.map": "/sandbox/werewolf/build/static/js/runtime~main.3e22b11e.js.map",
+    "static/js/2.3310f33a.chunk.js": "/sandbox/werewolf/build/static/js/2.3310f33a.chunk.js",
+    "static/js/2.3310f33a.chunk.js.map": "/sandbox/werewolf/build/static/js/2.3310f33a.chunk.js.map",
+    "index.html": "/sandbox/werewolf/build/index.html",
+    "precache-manifest.4be9ec25b9443e511f5134445e3be899.js": "/sandbox/werewolf/build/precache-manifest.4be9ec25b9443e511f5134445e3be899.js",
+    "service-worker.js": "/sandbox/werewolf/build/service-worker.js",
+    "static/css/main.91b3bd44.chunk.css.map": "/sandbox/werewolf/build/static/css/main.91b3bd44.chunk.css.map"
   }
 }
