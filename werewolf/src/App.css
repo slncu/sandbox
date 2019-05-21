@@ -1,0 +1,28 @@
+.village {
+  display: flex;
+  padding: 20px;
+}
+
+.villager {
+  border: 1px solid #DDD;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.werewolf {
+  border: 1px solid #1a1a1a;;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin: 4px;
+  background-color: #1a1a1a;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
