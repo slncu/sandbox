@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+
+.sp {
+  transform: rotate(90deg);
+  width: 100vh;
+}

@@ -15,13 +15,24 @@ function landscape() {
 }
 
 class App extends React.Component {
+  constructor(props) {
+    super(props)
+
+    this.state = {
+      isSp: false
+    }
+  }
   componentDidMount() {
     landscape()
+    if (window.screen.width < 400) {
+      console.log('400以下です')
+      this.setState({ isSp: true })
+    }
   }
 
   render() {
     return (
-      <div className='App'>
+      <div className={`App ${this.state.isSp ? 'sp' : 'pc'}`}>
         <header className='App-header'>
           <img src={logo} className='App-logo' alt='logo' />
           <p>
