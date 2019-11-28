@@ -1,3 +1,7 @@
 (async () => {
-  await import("./module.mjs");
+  try {
+    await import("./module.mjs");
+  } catch (err) {
+    throw new Error(err);
+  }
 })();
